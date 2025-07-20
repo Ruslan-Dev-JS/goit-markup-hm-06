@@ -12,9 +12,13 @@
   }
 
   .burger-btn{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+    border: none;
+    padding: 0;
   }
   
 
@@ -746,6 +750,39 @@ font-weight: 700;
   .subscribe-title {
     text-align: left;
   }
+
+  .footer-containere {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; 
+     padding: 0 90px;
+  }
+
+  .footer-info {
+    flex: 1 1 calc(50% - 7.5px); 
+    min-width: 280px;
+  }
+
+  .social-block {
+    flex: 1 1 calc(50% - 7.5px);
+    min-width: 280px;
+  }
+
+  .subscribe-container {
+    flex: 1 1 100%;
+    margin-top: 16px;
+  }
+  
+  .footer-info, .social-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-logo {
+    text-transform: uppercase;
+  }
+
 }
 
 
