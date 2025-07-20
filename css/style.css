@@ -5,6 +5,17 @@
       padding: 0 16px;
       margin: 0 auto;
   }
+
+    .nav-list,
+  .contact_address {
+    display: none;
+  }
+
+  .burger-btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
   
 
   .mobile-menu {
