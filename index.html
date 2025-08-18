@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:,wght@700&family=Roboto:wdth@100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head> 
@@ -35,7 +36,7 @@
         <use href="./images/icons.svg#icon-burger"></use>
       </svg>
     </button>
-<div class="mobile-menu is-open" data-menu>
+<div class="mobile-menu" data-menu>
   <div class="container mobile-menu-container">
     <button class="mobile-menu-close" type="button" data-menu-close>
       <svg class="burger-icon" width="24" height="24">
@@ -100,6 +101,7 @@
       </svg>
     </button>
   </div>
+  <!--<button class="open-modal-btn" data-modal-open>Відкрити модалку</button>!-->
 </header>
 
 <main>
@@ -478,12 +480,14 @@
     </div>
   </div>
 </footer>
-<div class="modal-backdrop" data-modal>
-  <div class="modal-window active">
+<!-- <div class="modal-backdrop" data-modal>
+  <div class="modal-window">
     <button type="button" class="modal-close-btn" aria-label="Close modal" data-modal-close>
-      <svg class="modal-close-icon" width="8" height="8" aria-hidden="true">
+      <svg class="modal-close-icon" width="8" height="8">
         <use href="./images/icons.svg#icon-close"></use>
       </svg>
+    </button>
+
     </button>
 
     <p class="modal-description">Leave your contacts and we will call you back</p>
@@ -536,12 +540,11 @@
           <a href="#" class="form-privacy-link">Privacy Policy</a>
         </label>
       </div>
-
+!-->
       <button type="submit" class="form-submit-btn">Send</button>
     </form>
   </div>
 </div>
-
     <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
 </body>
