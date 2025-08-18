@@ -1135,8 +1135,9 @@ h1, h2, h3, h4, h5, h6, p {
 
 .contact-list {
   display: flex;
-  gap: 40px;
   max-width: 1440px;
+  flex-direction: row;
+  gap: 40px;
 }
 
 .contact-link {
