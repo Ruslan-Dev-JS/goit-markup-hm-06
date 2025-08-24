@@ -22,10 +22,15 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
+img{
+      display: block;
+    max-width: 100%;
+    height: auto;
+}
 
   .container{
     max-width: 320px;
-      padding:16px 0;
+      padding:0 16px;
       margin: 0 auto;
   }
 
@@ -46,6 +51,11 @@ h1, h2, h3, h4, h5, h6, p {
 .mobile-menu-list li:first-child {
   color: #4d5ae5;;
 }
+
+    .site-header {
+        border-bottom: 1px solid #e7e9fc;
+        box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+    }
   .header-container {
   display: flex;
   align-items: center;    
@@ -171,7 +181,7 @@ display: flex;
   text-transform: uppercase;
   color: #4d5ae5;
   display: block;
-  margin: 0 16px;
+  padding: 16px 0;
 }
 
 
@@ -310,7 +320,7 @@ font-weight: 700;
 .team-list {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 72px;
   align-items: center;
   padding: 0;
   margin: 0;
@@ -349,7 +359,7 @@ font-weight: 500;
 .social-icons {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 24px;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -376,9 +386,14 @@ font-weight: 500;
 }
 
 .section-title {
-  text-align: center;
-  font-size: 28px;
-  margin-bottom: 40px;
+      font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -914,7 +929,6 @@ font-weight: 500;
   .main-nav {
     display: flex;
     align-items: center;
-    gap: 40px;
     flex-grow: 1;
   }
 
@@ -944,6 +958,10 @@ font-weight: 500;
         color: #404bbf;
   }
 
+  .nav-link.active{
+    color: #404bbf;
+  }
+
 
   .nav-link.active::after {
     content: "";
@@ -954,6 +972,10 @@ font-weight: 500;
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
+  }
+
+  .logo-class{
+    margin-right: 120px;
   }
 
   .contact_address {
